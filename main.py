@@ -23,8 +23,8 @@ import re
 
 # Configuración de la página
 st.set_page_config(
-    page_title="Minería de Datos Educativa",
-    page_icon="📊",
+    page_title="Minería de Datos Examen",
+    page_icon="",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -414,6 +414,8 @@ def main():
 def show_dashboard(app):
     """Dashboard principal"""
     st.markdown('<h2 class="section-header">Dashboard Principal</h2>', unsafe_allow_html=True)
+    # Autor
+    st.markdown("""Erick Vázquez Pérez - 422121480""")
     
     # Métricas del sistema
     col1, col2, col3, col4 = st.columns(4)
