@@ -494,9 +494,9 @@ def show_dashboard(app):
     <h4>Flujo de Trabajo Recomendado</h4>
     <ol>
         <li><strong>Sistema de Consultas:</strong> Realiza preguntas sobre conceptos de minería de datos</li>
-        <li><strong>Laboratorio ML:</strong> Carga un dataset y entrena múltiples modelos</li>
-        <li><strong>Análisis de Resultados:</strong> Evalúa y compara el rendimiento de los modelos</li>
-        <li><strong>Interpretación:</strong> Utiliza las recomendaciones para seleccionar el mejor modelo</li>
+        <li><strong>Laboratorio ML:</strong> Utiliza datasets de prueba para probar los modelos incluidos</li>
+        <li><strong>Análisis de Resultados:</strong> Evalúa y compara el rendimiento de los modelos incluidos</li>
+        <li><strong>Interpretación:</strong> Utiliza las recomendaciones para identificar el mejor modelo</li>
     </ol>
     </div>
     """, unsafe_allow_html=True)
